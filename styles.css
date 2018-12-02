@@ -1,0 +1,38 @@
+body{
+	background-image:url("chess1.jpg");
+	color:white;
+	font-family:"Segoe UI"
+}
+.tables
+{
+	border:0px;
+	margin-top:5%;
+	margin-left:28%;
+	width:44%;
+	margin-right:28%;
+
+	z-index:10px;
+	box-radius:5px;
+	box-shadow: 10px 10px 10px 10px #00000070;
+
+}
+.matrix{
+	height:150px;
+	width:33.3%;
+	padding:10px;
+	opacity:0.85 !important;
+	text-align:center;
+	object-fit: cover;
+	border:0px;
+	border-radius:5px;
+}
+.black{
+	background:black;
+	color:white;
+
+
+}
+.white{
+	background:white;
+	color:black;
+}
